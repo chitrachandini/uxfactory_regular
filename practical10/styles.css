@@ -1,0 +1,53 @@
+.animate {
+    position:relative;
+    left:10%;
+    width:200px;
+    height:200px;
+    background-color: tomato;
+
+    animation-name: colors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    animation-direction: reverse;
+    animation-timing-function: ease-out;
+}
+@keyframes colors {
+    5% {
+        background-color: teal;
+    }
+    10% {
+        background-color: violet;
+    }
+    25% {
+        background-color: tomato;
+    }
+    50% {
+        background-color: green;
+    }
+    100% {
+        background-color: indianred;
+    }
+}
+.tooltip {
+    position:relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 4cm;
+    font-weight: bold;
+    left:20%;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    margin-left: 10px;
+    width: 200px;
+    background-color: indianred;
+    color:lightblue;
+    text-align: center;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

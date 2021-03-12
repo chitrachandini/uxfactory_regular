@@ -1,0 +1,76 @@
+:root {
+    --black:green;
+}
+.buttons {
+    margin:2em;
+}
+.buttons button {
+    border:none;
+    color:var(--green);
+    font-weight: bold;
+    padding:2opx 25px;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.buttons button:hover {
+    color:brown;
+    background-color: cadetblue;
+}
+.btn1 {
+    background-color: lightcoral;
+}
+.btn2 {
+    background-color: lightseagreen;
+}
+.btn3 {
+    background-color: lightslategrey;
+}
+.pagination {
+    color: maroon;
+    padding:8px 16px;
+    text-decoration: none;
+}
+.columns {
+    column-count: 4;
+    column-gap: 30px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: black;
+}
+.heading {
+    color:var(--black)
+}
+.ui {
+    margin:4em;
+}
+.resize {
+    border:5px;
+    color:chocolate;
+    padding:20px;
+    width:200px;
+    resize:both;
+    overflow: scroll;
+}
+div.offset {
+    margin:30px;
+    border:1px solid red;
+    background-color: cornflowerblue;
+    outline:5px solid green;
+    outline-offset: 10px;
+}
+.flex-container {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: cornflowerblue;
+}
+.flex-container > div {
+    background-color: crimson;
+    width:100px;
+    margin:5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: medium;
+}

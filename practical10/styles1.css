@@ -1,0 +1,36 @@
+div {
+    background-color: teal;
+    width:150px;
+    height:80px;
+    text-align: center;
+}
+.translate {
+    transform: translate(50px,100px);
+}
+.rotate {
+    transform: rotate(20deg);
+}
+.scale {
+    transform: scale(1,2);
+}
+.scalex {
+    transform: scaleX(0.5);
+}
+.scaley {
+    transform: scaleY(0.5);
+}
+.skewx {
+    transform: skewX(20deg);
+}
+.skew {
+    transform: skew(20deg,10deg);
+}
+.rotatex {
+    transform: rotateX(150deg);
+}
+.rotatey {
+    transform: rotateY(130deg);
+}
+.rotatez {
+    transform: rotateZ(120deg);
+}
