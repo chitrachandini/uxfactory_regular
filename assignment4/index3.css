@@ -1,7 +1,7 @@
 .nav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 140px;
     overflow: hidden;
     background-color:rgb(197, 192, 184);
     margin-top: 20px;
@@ -18,7 +18,8 @@
 }
 .special-word {
     color:blue;
-    padding-left: 150px;
+   /* padding-left: 150px;
+    display: inline;*/
 }
 .special-word1{
     color: purple;
@@ -27,12 +28,24 @@
 .special-word2{
     color:skyblue;
 }
-.cart {
-    float:right;
+/*.cart{
+    float: right;
+}*/
+.cart h1 {
+    display: inline;
+    padding-left: 150px;
+    padding-right: 700px;
 }
-searchShop{
+.cart p {
+    display: inline;
+}
+.searchShop{
     width:5px;
     height:10px;
+    float:right;
+    margin-top: 8px;
+    margin-right: 150px;
+    padding-right: 150px;
 }
 .container {
     background-color: orangered;
@@ -52,6 +65,14 @@ searchShop{
     padding:50px;
     float:left;
     padding-left: 300px;
+}
+.imageContainer1 button{
+    background-color: black;
+    color: white;
+    border:none;
+    padding: 8px;
+    border-radius: 20px;
+    width:100px;
 }
 .phones{
     display: inline-flex;
@@ -102,12 +123,7 @@ searchShop{
 .row {
     padding-left: 100px;
 }
-.row::after {
-    content:"";
-    display: table;
-    clear: both;
-}
-table {
+.table {
     border:1px solid black;
 }
 .column {
@@ -124,11 +140,10 @@ table {
 .card {
     border:1px solid black;
     width:300px;
-    height:180px;
+    height:220px;
 }
 .name {
     padding-left: 150px;
-    padding-bottom: 70px;
 }
 .column1 {
     width:50px;
@@ -150,7 +165,7 @@ table {
 .card1 {
     border:1px solid black;
     width:300px;
-    height:180px;
+    height:220px;
     padding-left: 10px;
     padding-top: 10px;
 }
@@ -163,21 +178,12 @@ table {
     width:50px;
     display: inline-block;
     padding-left: 300px;
-    margin-left: 3px;
 }
 .image {
     float:left;
     height:300px;
     width:100px;
     padding-right: 20px;
-}
-.button {
-    height: 20px;
-    width:100px;
-    margin-top: 10px;
-}
-.image1{
-    padding-left: 50px;
 }
 .column6{
     width:50px;
@@ -201,12 +207,9 @@ table {
     width:300px;
     text-align: left;
 }
-.icon1 {
-    float:right;
-}
 .container1{
-    background-color:whitesmoke;
-    height:300px;
+    background-color:rgb(202, 196, 196);
+    height:400px;
     width:100%;
 }
 .column9{
@@ -216,9 +219,38 @@ table {
 }
 .part5{
     float:left;
-    height:400px;
-    width:300px;
 }
 .column10{
-    margin:5px;
+    text-align: right;
+}
+.row2{
+    padding-left: 300px;
+}
+.row3{
+    padding-left: 600px;
+}
+.btn2 button{
+    color:white;
+    background-color: purple;
+    border: none;
+}
+.btn3 button {
+    color: white;
+    background-color:rgb(17, 131, 180);
+    border: none;
+}
+.fbIcon,.twitterIcon {
+    margin-top: 10px;
+    font-size: 25px;
+    color:gray;
+    text-align: center;
+}
+.footerDiv {
+    margin-left: 500px;
+    float: left;
+    text-align: center;
+}
+.footerDiv p {
+    color: gray;
+    margin-top: 0;
 }
