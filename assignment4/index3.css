@@ -16,6 +16,12 @@
     padding:10px 15px;
     text-decoration: none;
 }
+.color {
+    color: rgb(238, 211, 211);
+}
+.color1{
+    color: rgb(216, 189, 189);
+}
 .special-word {
     color:blue;
    /* padding-left: 150px;
@@ -24,9 +30,6 @@
 .special-word1{
     color: purple;
     text-align: left;
-}
-.special-word2{
-    color:skyblue;
 }
 /*.cart{
     float: right;
@@ -42,9 +45,9 @@
 .searchShop{
     width:5px;
     height:10px;
-    float:right;
-    margin-top: 8px;
-    margin-right: 150px;
+    float:right; 
+    margin-top: 8px; 
+    margin-left: 450px;
     padding-right: 150px;
 }
 .container {
@@ -89,8 +92,8 @@
     color:white;
 }
 .iphones {
-    background-color:darkcyan;
-    height: 120px;
+    background-color:rgb(18, 238, 238);
+    height: 180px;
     width:280px;
     text-align: left;
     padding-top: 2px;
@@ -98,8 +101,8 @@
     color:white;
 }
 .windows {
-    background-color:purple;
-    height: 120px;
+    background-color:rgb(184, 16, 184);
+    height: 180px;
     width: 280px;
     text-align: left;
     padding-top: 2px;
@@ -108,8 +111,8 @@
     margin-left: 70px;
 }
 .android {
-    background-color: green;
-    height: 120px;
+    background-color: rgb(15, 228, 15);
+    height: 180px;
     width:280px;
     text-align: left;
     padding-top: 2px;
@@ -124,7 +127,7 @@
     padding-left: 100px;
 }
 .table {
-    border:1px solid black;
+    border:1px solid rgb(139, 137, 137);
 }
 .column {
     width:50px;
@@ -138,7 +141,7 @@
     padding-right:50px;
 }
 .card {
-    border:1px solid black;
+    border:1px solid rgb(168, 163, 163);
     width:300px;
     height:220px;
 }
@@ -163,7 +166,7 @@
     padding-left: 150px;
 }
 .card1 {
-    border:1px solid black;
+    border:1px solid rgb(192, 186, 186);
     width:300px;
     height:220px;
     padding-left: 10px;
@@ -208,26 +211,38 @@
     text-align: left;
 }
 .container1{
-    background-color:rgb(202, 196, 196);
-    height:400px;
+    background-color:rgb(211, 204, 204);
+    height:300px;
     width:100%;
+    padding-left: 150px;
+    margin-top: 10px;
 }
 .column9{
-    width:50px;
-    display: inline-block;
-    padding-left: 300px;
+    width:25%;
+    float: left;
+    padding:0 10px;
+    height: 200px;
 }
-.part5{
+.part5 .images{
     float:left;
+    margin-right: 10px;
 }
-.column10{
-    text-align: right;
+.part5 h5{
+    color:green;
+    margin-top: 30px;
 }
-.row2{
-    padding-left: 300px;
+h5{
+    margin-top: 30px;
 }
-.row3{
-    padding-left: 600px;
+.part5 b,p{
+    display: block;
+    float:none;
+}
+.prices span {
+    color:rgb(34, 136, 177);
+}
+.part5 .firstpar{
+    color:purple;
 }
 .btn2 button{
     color:white;
@@ -236,21 +251,45 @@
 }
 .btn3 button {
     color: white;
-    background-color:rgb(17, 131, 180);
+    background-color:rgb(17, 173, 240);
     border: none;
-}
-.fbIcon,.twitterIcon {
-    margin-top: 10px;
-    font-size: 25px;
-    color:gray;
-    text-align: center;
 }
 .footerDiv {
     margin-left: 500px;
     float: left;
     text-align: center;
+    color:gray;
+    margin-top: 20px;
+    font-size: 15px;
 }
 .footerDiv p {
-    color: gray;
+    color: rgb(172, 167, 167);
     margin-top: 0;
+}
+.icon1{
+    float: right;
+}
+.column9 #image {
+    margin-top: 20px;
+    margin-left: 0;
+    float: left;
+}
+.firstPrice {
+    margin-bottom: 20px;
+} 
+.mobileName{
+    padding-top: 20px;
+}
+#pic{
+    margin-top: 20px;
+}
+.text{
+    padding-left:10px;
+    padding-top: 20px;
+}
+.iphones .para{
+    margin-top: 5px;
+}
+.c1 {
+    color: black;
 }

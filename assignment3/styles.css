@@ -53,12 +53,12 @@ ul.a {
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-#colors {
+.colors {
     margin:2px;
     padding:1px;
     float:left;
 }
-#colors div {
+.colors div {
     background-color: green;
     width:25px;
     height:25px;
