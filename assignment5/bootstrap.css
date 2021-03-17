@@ -1,0 +1,44 @@
+.cameraIcon {
+    color:white;
+    padding-left: 100px;
+}
+.al {
+    padding-right: 1090px;
+    color:white;
+}
+.jumbtron {
+    margin-top: 50px;
+}
+.jumbtron-heading {
+    font-weight: 200;
+}
+.jumbtron .text {
+    color: gray;
+    text-align: center;
+}
+.container {
+    padding-left: 100px;
+    margin-top: 50px;
+}
+.min {
+    float:right;
+    color: gray;
+}
+.btn-group button {
+    color:gray;
+    border: 1px solid gray;
+}
+.card {
+    width: 25%;
+    height: 360px;
+    border: 1px solid gray;
+}
+.text {
+    color:gray;
+    margin-top: 50px;
+    padding-left: 120px;
+}
+.back {
+    float: right;
+    padding-right: 180px;
+}
