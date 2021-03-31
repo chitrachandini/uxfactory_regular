@@ -1,0 +1,40 @@
+.title {
+    margin-left:50px;
+}
+.title1 {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.img {
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.img1 {
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.img2{
+    margin-left: 500px;
+}
+.img3 {
+    margin-left: 500px;
+}
+.container2 {
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+.centered5 {
+    position: absolute;
+    top:245%;
+    left:550px;
+}
+.copy {
+    padding-left: 500px;
+    padding-top:255px;
+    color: white;
+}
+.item :hover{
+    color:black;
+}

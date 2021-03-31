@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="form">
+        <meta name="description" content="form">
+        <meta name="author" content="chitra">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form validation</title>
+        <script src="https://kit.fontawesome.com/615aa2f6b1.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="form.js" rel="js/"></script>
+    </head>
+    <body>
+        <h1>Form Validation</h1>
+        <form name="nameForm" onsubmit="validateForm()">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input id="firstName" type="text" name="fName" placeholder="enter first name">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input id="lastName" type="text" name="lName" placeholder="enter last name">
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input id="age" type="number" name="age" placeholder="enter age">
+            </div>
+            <div class="form-group">
+                <label for="date of birth">Date Of Birth:</label>
+                <input id="date of birth" type="date" name="dob" placeholder="enter date of birth">
+            </div>
+            <div class="form-group">
+                <label for="email">Email id:</label>
+                <input id="email" type="email" name="email" placeholder="enter email id">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input id="password" type="password" name="password" placeholder="enter password">
+            </div>
+            <button type="submit" class="btn-primary" value="submit">submit</button>
+        </form>
+    </body>
+</html>

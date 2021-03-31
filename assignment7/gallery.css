@@ -1,0 +1,19 @@
+.container2 {
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+.centered5 {
+    position: absolute;
+    top:600%;
+    left:550px;
+}
+.copy {
+    padding-left: 500px;
+    padding-top:255px;
+    color: white;
+}
+.item :hover{
+    color:black;
+}

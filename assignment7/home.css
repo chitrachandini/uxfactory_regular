@@ -1,0 +1,93 @@
+.jumbtron {
+    background-color: rgb(216, 209, 209);
+}
+.jumbtron-heading {
+    font-weight: 200;
+    color: solid rgb(69, 69, 224);
+    padding-top: 50px;
+}
+.jumbtron .text {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+.jumbtron .text1 {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-primary {
+    margin-bottom: 40px;
+}
+.container {
+    position: relative;
+}
+.top-left {
+    position: absolute;
+    top:62%;
+    left: 200px;
+    transform: translate(-50%,-50%);
+}
+.top-left1 {
+    position: absolute;
+    bottom:50%;
+    left:200px;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.centered1 {
+    position: absolute;
+    top:250px;
+    left: 600px;
+    transform: translate(-200px,-200px);
+}
+.centered  {
+    position: absolute;
+    top: 50%;
+    left:500px;
+}
+.centered2 {
+    position: absolute;
+    bottom:50%;
+    left:550px;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.top-right {
+    position: absolute;
+    top: 50%;
+    left: 900px;
+}
+.top-right1 {
+    position: absolute;
+    left:900px;
+    bottom: 55%;
+    color: white;
+}
+.container1 {
+    padding-left: 100px;
+    margin-top: 50px;
+}
+.card-body{
+    background-color:brown;
+    color: white;
+}
+.container2 {
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+.centered5 {
+    position: absolute;
+    top:330%;
+    left:550px;
+}
+.copy {
+    padding-left: 500px;
+    padding-top:255px;
+    color: white;
+}
+.item :hover{
+    color:black;
+}

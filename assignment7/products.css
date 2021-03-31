@@ -1,0 +1,30 @@
+.img {
+    margin-top: 40px;
+}
+.para {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.items {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.container2 {
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+.centered5 {
+    position: absolute;
+    left:550px;
+    top:140%;
+}
+.copy {
+    padding-left: 500px;
+    padding-top:255px;
+    color: white;
+}
+.item :hover{
+    color:black;
+}

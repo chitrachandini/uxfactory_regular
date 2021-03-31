@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="new">
+        <meta name="description" content="new">
+        <meta name="author" content="chitra">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>input</title>
+        <script src="https://kit.fontawesome.com/615aa2f6b1.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        
+    </head>
+    <body>
+            Enter name: <input type="text" id="contactNo" name="fname">
+            <button onclick="myFunction()">Submit</button>
+            <p id="check"></p>
+          <script>
+          function myFunction() {
+            var number=document.getElementById("contactNo").value;
+            document.getElementById("check").innerHTML=number;
+          }
+          </script>
+    </body>
+</html>
